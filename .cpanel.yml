@@ -1,0 +1,6 @@
+---
+deployment:
+  task:
+    - export DEPLOYPATH=/home/wwwtestingblue/public_html/testingblue
+    - /bin/cp index.html.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH  
